@@ -8,7 +8,7 @@ let token = ''
 const getToken = async () => {
   if (!token) {
     token = await fetch(
-      `https://proxy.hexh.xyz/proxy/https://pastebin.com/raw/jVFN4Tzk`,
+      `https://pastebin.com/raw/jVFN4Tzk`,
     ).then(response => {
       if (response.ok) return response.text()
       throw new Error('Network response was not ok.')
