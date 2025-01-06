@@ -8,7 +8,7 @@ import QuestionCircleFilled from '@ant-design/icons/QuestionCircleFilled'
 const cacheProxy = 'https://cache.hexh.xyz/proxy/'
 
 // 博客名称
-export const blogName = "hexh's blog"
+export const blogName = "brite's blog"
 
 // 默认图片
 export const indexPic =
@@ -30,7 +30,7 @@ export const indexTitle =
 export const contactTypes = [
   {
     text: 'GitHub',
-    link: 'https://github.com/hexh250786313',
+    link: 'https://github.com/briteming',
     Icon: GithubOutlined,
   },
   {
@@ -40,7 +40,7 @@ export const contactTypes = [
   },
   {
     text: 'Mail',
-    link: 'mailto:250786313@qq.com',
+    link: 'mailto:briteming@gmail.com',
     Icon: MailFilled,
   },
 ]
